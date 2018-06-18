@@ -1,4 +1,4 @@
-// I have used parts of code from the Udacity lesson on Google maps
+// I have used parts of code from the Udacity lesson on Google maps and React
 import React, { Component } from 'react';
 import scriptLoader from 'react-async-script-loader';
 import Suggestions_Location from './Suggestions_Location';
