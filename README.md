@@ -4,5 +4,5 @@ This app consists of a list of suggestions in my hometown of Gurgaon, India. You
 
 To run this project, download all the files to your system, run ‘npm install’ and then ‘npm start’ on your command prompt. 
 
-• I have used parts of code from the Udacity lesson on Google maps
+• I have used parts of code from the Udacity lesson on Google maps and React
 
