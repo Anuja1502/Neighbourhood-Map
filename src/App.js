@@ -46,9 +46,7 @@ class App extends Component{
           infowindow.addListener('closeclick', function() {
             infowindow.marker = null;
           });
-        var cId = "ARAFJJVKEMWVFJ23DXCY05L1H4ZDQ5H1E1L2WHTBSIT23S2R";
-        var cSecret = "TXOTEEUP4K4CJ2KHTNOVDJFXTN5T3VB3AQZGLHYU2BLRILZL";
-        var url = "https://api.foursquare.com/v2/venues/search?client_id=" + cId + "&client_secret=" + cSecret + "&v=20180323&ll=" + marker.getPosition().lat() + "," + marker.getPosition().lng() + "&limit=1";
+        var url = "https://api.foursquare.com/v2/venues/search?client_id=ARAFJJVKEMWVFJ23DXCY05L1H4ZDQ5H1E1L2WHTBSIT23S2R&client_secret=TXOTEEUP4K4CJ2KHTNOVDJFXTN5T3VB3AQZGLHYU2BLRILZL&v=20180323&ll=" + marker.getPosition().lat() + "," + marker.getPosition().lng() + "&limit=1";
         fetch(url)
             .then(
                 function (response) {
